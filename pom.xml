@@ -13,9 +13,9 @@
          
     	
 <scm>
-   <connection>scm:git:https://github.com/hanumantharao19/my-app.git</connection>
-   <developerConnection>scm:git:https://github.com:hanumantharao19/my-app.git</developerConnection>
-   <url>https://github.com/hanumantharao19/my-app.git</url>
+   <connection>scm:git:https://github.com/hanumantharao19/hello-world-mhrmhr.git</connection>
+   <developerConnection>scm:git:https://github.com:hanumantharao19/hello-world-mhrmhr.git</developerConnection>
+   <url>https://github.com/hanumantharao19/hello-world-mhrmhr.git</url>
    <tag>HEAD</tag>
  </scm> 
 	
