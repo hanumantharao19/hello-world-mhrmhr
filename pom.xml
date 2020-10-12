@@ -10,6 +10,26 @@
   <name>Maven Project</name>
   <description>Sample Maven project with a working, deployable site.</description>
   <url>http://www.valaxy.in</url>
+         
+    	
+<scm>
+   <connection>scm:git:https://github.com/hanumantharao19/my-app.git</connection>
+   <developerConnection>scm:git:https://github.com:hanumantharao19/my-app.git</developerConnection>
+   <url>https://github.com/hanumantharao19/my-app.git</url>
+   <tag>HEAD</tag>
+ </scm> 
+	
+<plugin>
+   <artifactId>maven-release-plugin</artifactId>
+   <version>3.6.1</version>
+   <dependencies>
+      <dependency>
+         <groupId>org.apache.maven.scm</groupId>
+         <artifactId>maven-scm-provider-gitexe</artifactId>
+         <version>1.9.5</version>
+      </dependency>
+   </dependencies>
+</plugin>
 
   <properties>
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
