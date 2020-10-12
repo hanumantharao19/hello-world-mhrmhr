@@ -19,7 +19,7 @@
    <tag>HEAD</tag>
  </scm> 
 	
-<plugin>
+<!-- <plugin>
    <artifactId>maven-release-plugin</artifactId>
    <version>3.6.1</version>
    <dependencies>
@@ -29,7 +29,7 @@
          <version>1.9.5</version>
       </dependency>
    </dependencies>
-</plugin>
+</plugin> -->
 
   <properties>
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
